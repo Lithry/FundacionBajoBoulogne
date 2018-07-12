@@ -15,9 +15,17 @@
 }
 
 .header .row1 .facebook {
-    margin-right: 35px;
-    margin-top: 10px;
-    float: right;
+    position: absolute;
+    right: 35px;
+    top: 10px;
+    color: azure;
+    font-size: 1.5em;
+}
+
+.header .row1 a {
+    position: absolute;
+    right: 120px;
+    top: 12px;
     color: azure;
     font-size: 1.5em;
 }
@@ -140,6 +148,18 @@
 }
 
 @media screen and (max-width: 720px) {
+    .header .row1 .facebook {
+        right: 35px;
+        top: 10px;
+        font-size: 1.3em;
+    }
+    
+    .header .row1 a {
+        right: 70px;
+        top: 12px;
+        font-size: 1.3em;
+    }
+
     .header .row2{
         flex-direction: column;
         /*align-items: flex-end;*/

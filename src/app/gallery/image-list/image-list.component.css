@@ -1,0 +1,29 @@
+.imageList {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.imageList app-image{
+    display: block;
+    position: relative;
+    width: 30%;
+    margin: 1.65%;
+}
+
+@media screen and (max-width: 720px) {
+    .imageList {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .imageList app-image{
+        display: block;
+        position: relative;
+        width: 49%;
+        margin: .5%;
+    }
+}

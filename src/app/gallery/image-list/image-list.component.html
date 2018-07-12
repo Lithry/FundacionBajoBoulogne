@@ -1,0 +1,4 @@
+<app-image-show [imageId]="imageId" [show]="showImage"></app-image-show>
+<div class="imageList">
+  <app-image *ngFor="let image of images" [image]="image" (click)="OnSelect(image.id)"></app-image>
+</div>

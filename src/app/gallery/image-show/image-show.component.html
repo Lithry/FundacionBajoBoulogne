@@ -1,0 +1,10 @@
+<div class="imageShow" *ngIf="imageId != -1">
+    <a class="back" (click)="BackImage()"><</a>
+
+    <div class="imageDisplay" (click)="CloseWindow()">
+        <img [src]="images[imageId].imageLink">
+    </div>
+    
+    <a class="forward" (click)="ForwardImage()">></a>
+</div>
+
