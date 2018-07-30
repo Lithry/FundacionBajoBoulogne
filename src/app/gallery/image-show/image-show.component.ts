@@ -36,4 +36,8 @@ export class ImageShowComponent implements OnInit {
       this.imageId++;
     }
   }
+
+  OnResize(event) {
+    event.target.innerWidth;
+  }
 }
