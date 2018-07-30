@@ -15,7 +15,9 @@ import { WorkshopsComponent } from './workshops/workshops.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ImageListComponent } from './gallery/image-list/image-list.component';
 import { ImageComponent } from './gallery/image-list/image.component';
-import { ImageShowComponent } from './gallery/image-show/image-show.component'
+import { ImageShowComponent } from './gallery/image-show/image-show.component';
+import { ContactComponent } from './contact/contact.component';
+import { MapComponent } from './contact/map.component'
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { ImageShowComponent } from './gallery/image-show/image-show.component'
     GalleryComponent,
     ImageListComponent,
     ImageComponent,
-    ImageShowComponent
+    ImageShowComponent,
+    ContactComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,

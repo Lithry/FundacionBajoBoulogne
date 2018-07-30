@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./front-img.component.css']
 })
 export class FrontImgComponent implements OnInit {
-  public img:string;
+  //public img:string;
 
   constructor() { 
-    this.img = "assets/img/front.jpg";
+    //this.img = "assets/img/front.jpg";
   }
 
   ngOnInit() {
