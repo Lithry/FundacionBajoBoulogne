@@ -5,7 +5,6 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { WorkshopsComponent } from './workshops/workshops.component';
 import { GalleryComponent } from './gallery/gallery.component';
-import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {
@@ -23,10 +22,6 @@ const routes: Routes = [
   {
     path:'Gallery',
     component:GalleryComponent
-  },
-  {
-    path:'Contact',
-    component:ContactComponent
   }
 ];
 

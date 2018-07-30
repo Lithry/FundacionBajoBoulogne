@@ -2,7 +2,7 @@
     <a class="back" (click)="BackImage()"><</a>
 
     <div class="imageDisplay" (click)="CloseWindow()">
-        <img [src]="images[imageId].imageLink" (window:resize)="OnResize($event)">
+        <img [src]="images[imageId].imageLink">
     </div>
     
     <a class="forward" (click)="ForwardImage()">></a>
