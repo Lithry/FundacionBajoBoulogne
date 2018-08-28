@@ -2,12 +2,11 @@
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
-    background: #ffffffa8;
+    background: #000000;
+    box-shadow: 4px 4px 15px rgb(160, 160, 160);
     width: 100%;
     height: 200px;
     overflow: hidden;
-    -webkit-clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 95%, 95% 99%, 5% 100%, 0 95%, 0 5%);
-    clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 95%, 95% 99%, 5% 100%, 0 95%, 0 5%);
 }
 
 .imageCont a {
@@ -25,4 +24,10 @@
 .imageCont a .image:hover {
     opacity: .7;
     filter: alpha(opacity=70);
+}
+
+@media screen and (max-width: 720px) {
+    .imageCont {
+        box-shadow: 3px 3px 5px rgb(80, 80, 80);
+    }
 }

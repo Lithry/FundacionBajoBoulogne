@@ -1,6 +1,13 @@
-.footer {
-    display: block;
-    width: 100%;
+.footer{
+    display: flex;
+    position: relative;
+    background: #caba7d;
+    color: rgb(104, 104, 104);
+    margin-top: -150px;
     height: 150px;
-    background: #f8e8a6;
+    width: 100%;
+}
+
+.footer p{
+    margin: auto auto;
 }

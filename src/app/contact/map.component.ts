@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
-  styles: ['img { display: flex; width: 100%; ']
+  styles: ['img { display: block; width: 100%; }']
 })
 export class MapComponent implements OnInit {
   public img:string;

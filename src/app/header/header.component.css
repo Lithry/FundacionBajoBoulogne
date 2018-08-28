@@ -55,7 +55,7 @@
 .header .row2{
     display: flex;
     position: relative;
-    z-index: 1000;
+    z-index: 100;
     width: 94%;
     min-height: 11vw;
     margin-left: 3%;
@@ -124,7 +124,7 @@
     height: 35px;
     width: 100%;
     padding-left: 20px;
-    z-index: 1000;
+    z-index: 100;
 }
 .header .row2 .column2 .nav-cell-cont select option {
     background-color: #3b8ec2;

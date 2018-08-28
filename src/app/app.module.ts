@@ -17,7 +17,9 @@ import { ImageListComponent } from './gallery/image-list/image-list.component';
 import { ImageComponent } from './gallery/image-list/image.component';
 import { ImageShowComponent } from './gallery/image-show/image-show.component';
 import { ContactComponent } from './contact/contact.component';
-import { MapComponent } from './contact/map.component'
+import { MapComponent } from './contact/map.component';
+import { EventsComponent } from './events/events.component';
+import { FacebookLinkComponent } from './events/facebook-link.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { MapComponent } from './contact/map.component'
     ImageComponent,
     ImageShowComponent,
     ContactComponent,
-    MapComponent
+    MapComponent,
+    EventsComponent,
+    FacebookLinkComponent
   ],
   imports: [
     BrowserModule,
