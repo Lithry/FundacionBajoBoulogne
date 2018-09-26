@@ -48,8 +48,14 @@ p.last {
 
 .eventsLink{
     position: absolute;
-    bottom: 25px;
+    bottom: 20px;
     right: 50px;
+}
+
+.videosLink{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
 }
 
 @media screen and (max-width: 720px) {
@@ -73,6 +79,12 @@ p.last {
     }
 
     .eventsLink{
+        position: absolute;
+        bottom: 18px;
+        left: 180px;
+    }
+    
+    .videosLink{
         position: absolute;
         bottom: 18px;
         left: 30px;

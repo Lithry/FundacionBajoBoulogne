@@ -12,9 +12,9 @@ export class FrontImgComponent implements OnInit {
 
   constructor() { 
     this.images = [
-      "assets/img/front.jpg",
-      "assets/img/front2.jpg",
-      "assets/img/front3.jpg"];
+      "assets/img/FRONT/23.JPG",
+      "assets/img/FRONT/30.JPG",
+      "assets/img/FRONT/22.JPG"];
 
     this.imgIndex = 0;
   }

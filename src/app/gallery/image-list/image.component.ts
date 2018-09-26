@@ -8,13 +8,8 @@ import { Image } from './image';
 })
 export class ImageComponent implements OnInit {
   @Input() image : Image;
-  //public images:Array<string>;
-
+  
   constructor() {
-    /*this.images[] = [
-      "a",
-      "b"
-    ];*/
   }
 
   ngOnInit() {

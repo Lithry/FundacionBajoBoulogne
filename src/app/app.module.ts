@@ -19,7 +19,8 @@ import { ImageShowComponent } from './gallery/image-show/image-show.component';
 import { ContactComponent } from './contact/contact.component';
 import { MapComponent } from './contact/map.component';
 import { EventsComponent } from './events/events.component';
-import { FacebookLinkComponent } from './events/facebook-link.component'
+import { FacebookLinkComponent } from './events/facebook-link.component';
+import { DonationsComponent } from './donations/donations.component'
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { FacebookLinkComponent } from './events/facebook-link.component'
     ContactComponent,
     MapComponent,
     EventsComponent,
-    FacebookLinkComponent
+    FacebookLinkComponent,
+    DonationsComponent
   ],
   imports: [
     BrowserModule,
